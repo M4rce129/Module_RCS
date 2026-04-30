@@ -6,13 +6,13 @@ Rigt => BF40FF00: Cancion anterior
 - => EA15FF00: Bajar volumen 
 + => F609FF00: Subir volumen
 
-MODE => B946FF00
+MODE => B946FF00: Activar MODE
 ONOFF => BA45FF00: Bloquear la entrada de datos 
 Cambio => E619FF00
 USB => F20DFF00
-EQ => F807FF00: Activar EQ
+EQ => F807FF00
 
-// Abrir un link o app(EQ):
+// Abrir un link o app(MODE):
 0 => E916FF00
 1 => F30CFF00
 2 => E718FF00
