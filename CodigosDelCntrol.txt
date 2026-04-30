@@ -12,14 +12,26 @@ Cambio => E619FF00
 USB => F20DFF00
 EQ => F807FF00
 
-// Abrir un link o app(MODE):
-0 => E916FF00
-1 => F30CFF00
-2 => E718FF00
-3 => A15EFF00
-4 => F708FF00
-5 => E31CFF00
-6 => A55AFF00
-7 => BD42FF00
-8 => AD52FF00
-9 => B54AFF00
+// Abrir un link:
+0 => E916FF00: Youtube
+1 => F30CFF00: MINECRAF/musica
+2 => E718FF00: chatGPT
+3 => A15EFF00: GitHub
+4 => F708FF00: Desconexion emocional
+5 => E31CFF00: Gmail
+6 => A55AFF00: wigglypaint
+7 => BD42FF00: Prepa6
+8 => AD52FF00: AulasUNAM
+9 => B54AFF00: SystemOfADOWN
+
+// Abrir una app(MODE):
+0 => E916FF00: Planos
+1 => F30CFF00: CodigosRCS
+2 => E718FF00: RobloxStudio
+3 => A15EFF00: Spotify
+4 => F708FF00: MedibangPaint
+5 => E31CFF00: Chrome
+6 => A55AFF00: Discord
+7 => BD42FF00: Yugioh
+8 => AD52FF00: Steam
+9 => B54AFF00: Roblox
