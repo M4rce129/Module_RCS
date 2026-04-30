@@ -20,15 +20,15 @@ BAUDRATE = 9600
 # =========================
 URLS = {
     "0": "https://www.youtube.com",
-    "1": "https://www.google.com",
-    "2": "https://www.wikipedia.org",
+    "1": "https://www.youtube.com/watch?v=h8UpC5JbMU0",
+    "2": "https://chatgpt.com",
     "3": "https://github.com",
-    "4": "https://linuxmint.com",
-    "5": "https://docs.arduino.cc",
-    "6": "https://stackoverflow.com",
-    "7": "https://news.ycombinator.com",
-    "8": "https://chat.openai.com",
-    "9": "https://example.com"
+    "4": "https://www.youtube.com/watch?v=L1Ta38LNcUE&list=RDL1Ta38LNcUE&start_radio=1",
+    "5": "https://mail.google.com/mail/u/0/#inbox",
+    "6": "https://www.wigglypaint.art/",
+    "7": "https://www.prepa6.unam.mx/ENP6/_P6/",
+    "8": "https://aulas-virtuales.cuaed.unam.mx/",
+    "9": "https://www.youtube.com/watch?v=CSvFpBOe8eY&list=RDCSvFpBOe8eY&start_radio=1"
 }
 # =========================
 # CONFIG: RUTA de archivos (si quieres abrir PDFs, imágenes, etc.) por numero 
@@ -36,6 +36,14 @@ URLS = {
 Archivos_RUTA = {
     "MODE0": r"C:\Users\marce\OneDrive\Desktop\MODULE_RCS\IRMODULE.pdf",
     "MODE1": r"C:\Users\marce\OneDrive\Desktop\MODULE_RCS\CodigosDelCntrol.txt",
+    "MODE2": r"C:\Users\marce\OneDrive\Desktop\Roblox Studio.lnk",
+    "MODE3": r"C:\Users\marce\OneDrive\Desktop\Spotify.lnk",
+    "MODE4": r"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Medibang\MediBang Paint Pro\MediBang Paint Pro.lnk",
+    "MODE5": r"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Google Chrome.lnk",
+    "MODE6": r"C:\Users\marce\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Discord Inc\Discord.lnk",
+    "MODE7": r"C:\Users\marce\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Steam\Yu-Gi-Oh!  Master Duel.url",
+    "MODE8": r"C:\Users\marce\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Steam\Steam.lnk",
+    "MODE9": r"C:\Users\marce\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Roblox\Roblox Player.lnk"
     #"#": r "---(La ruta)---",
 }
 
@@ -261,22 +269,22 @@ while True:
         continue
 
     if key == "Rigt":
-        music_next()
-        print("Música: Siguiente")
-        continue
-
-    if key == "Left":
         music_prev()
         print("Música: Anterior")
         continue
 
+    if key == "Left":
+        music_next()
+        print("Música: Siguiente")
+        continue
+
     if key == "+":
-        music_vol_up("0.1")
+        music_vol_up("0.5")
         print("Volumen: +")
         continue
 
     if key == "-":
-        music_vol_down("0.1")
+        music_vol_down("0.5")
         print("Volumen: -")
         continue
 
@@ -288,7 +296,7 @@ while True:
     # ---------- 2.5) Controles de WEB ----------
 
     if key == "MODEPausa":
-        keyboard.press_and_release('enter')
+        keyboard.press_and_release('space')
         continue
 
     if key == "MODERigt":

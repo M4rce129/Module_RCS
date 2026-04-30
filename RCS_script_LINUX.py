@@ -20,15 +20,15 @@ BAUDRATE = 9600
 # =========================
 URLS = {
     "0": "https://www.youtube.com",
-    "1": "https://www.google.com",
-    "2": "https://www.wikipedia.org",
+    "1": "https://www.youtube.com/watch?v=h8UpC5JbMU0",
+    "2": "https://chatgpt.com",
     "3": "https://github.com",
-    "4": "https://linuxmint.com",
-    "5": "https://docs.arduino.cc",
-    "6": "https://stackoverflow.com",
-    "7": "https://news.ycombinator.com",
-    "8": "https://chat.openai.com",
-    "9": "https://example.com"
+    "4": "https://www.youtube.com/watch?v=L1Ta38LNcUE&list=RDL1Ta38LNcUE&start_radio=1",
+    "5": "https://mail.google.com/mail/u/0/#inbox",
+    "6": "https://www.wigglypaint.art/",
+    "7": "https://www.prepa6.unam.mx/ENP6/_P6/",
+    "8": "https://aulas-virtuales.cuaed.unam.mx/",
+    "9": "https://www.youtube.com/watch?v=CSvFpBOe8eY&list=RDCSvFpBOe8eY&start_radio=1"
 }
 
 # =========================
