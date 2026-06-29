@@ -6,4 +6,5 @@ METODO DE DESCARGA
  | 1- linea 21 -> URLs para videos y paginas
  | 2- linea 37 -> Rutas de APP para su ejecucion
  | 3- linea 16 -> COM# del Arduoino
-4. Ejecutar   
+4. Eliminar carpeta de la distribucion contraria y la documentacion (opcional)
+5. Ejecutar  
