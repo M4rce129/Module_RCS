@@ -7,6 +7,7 @@ import subprocess
 import webbrowser
 import shutil
 
+
 # =========================
 # CONFIG: Puerto Serial / ONOFF
 # =========================
@@ -16,19 +17,29 @@ PORT = "COM8"
 BAUDRATE = 9600
 
 # =========================
+# NOTE / CONFIGURACIÓN
+# =========================
+# ## Uso rápido
+# - `URLS`: define las direcciones web que se abrirán al recibir cada comando.
+# - `FILES_PATHS`: define las rutas locales de archivos o aplicaciones que se abrirán.
+# - Cada clave (por ejemplo `"0"`, `"MODE0"`) debe coincidir con el comando enviado por Arduino.
+# - Ejemplo:
+#   - `URLS["1"] = "https://github.com/usuario/repositorio"`
+#   - `FILES_PATHS["MODE0"] = "/home/tu_usuario/Documentos/archivo.pdf"`
+# =========================
 # CONFIG: URLs por número
 # =========================
 URLS = {
-    "0": "https://www.youtube.com",
-    "1": "https://www.youtube.com/watch?v=h8UpC5JbMU0",
-    "2": "https://chatgpt.com",
+    "0": "https://github.com",
+    "1": "https://github.com",
+    "2": "https://github.com",
     "3": "https://github.com",
-    "4": "https://www.youtube.com/watch?v=L1Ta38LNcUE&list=RDL1Ta38LNcUE&start_radio=1",
-    "5": "https://mail.google.com/mail/u/0/#inbox",
-    "6": "https://www.wigglypaint.art/",
-    "7": "https://www.prepa6.unam.mx/ENP6/_P6/",
-    "8": "https://aulas-virtuales.cuaed.unam.mx/",
-    "9": "https://www.youtube.com/watch?v=CSvFpBOe8eY&list=RDCSvFpBOe8eY&start_radio=1"
+    "4": "https://github.com",
+    "5": "https://github.com",
+    "6": "https://github.com",
+    "7": "https://github.com",
+    "8": "https://github.com",
+    "9": "https://github.com"
 }
 
 # =========================

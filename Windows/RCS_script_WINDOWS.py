@@ -15,35 +15,37 @@ import keyboard
 # Linux Mint: "/dev/ttyACM0" (o /dev/ttyUSB0)
 PORT = "COM8"
 BAUDRATE = 9600
+
+# =========================
+# NOTE / CONFIGURACIÓN
+# =========================
+# ## Uso rápido
+# - `URLS`: define las direcciones web que se abrirán al recibir cada comando.
+# - `Archivos_RUTA`: define las rutas locales de archivos o aplicaciones que se abrirán.
+# - Cada clave (por ejemplo `"0"`, `"MODE0"`) debe coincidir con el comando enviado por Arduino.
+# - Ejemplo:
+#   - `URLS["1"] = "https://github.com/usuario/repositorio"`
+#   - `Archivos_RUTA["MODE0"] = r"C:\\Ruta\\Aplicacion.exe"`
 # =========================
 # CONFIG: URLs por número
 # =========================
 URLS = {
-    "0": "https://www.youtube.com",
-    "1": "https://www.youtube.com/watch?v=h8UpC5JbMU0",
-    "2": "https://chatgpt.com",
+    "0": "https://github.com",
+    "1": "https://github.com",
+    "2": "https://github.com",
     "3": "https://github.com",
-    "4": "https://www.youtube.com/watch?v=L1Ta38LNcUE&list=RDL1Ta38LNcUE&start_radio=1",
-    "5": "https://mail.google.com/mail/u/0/#inbox",
-    "6": "https://www.wigglypaint.art/",
-    "7": "https://www.prepa6.unam.mx/ENP6/_P6/",
-    "8": "https://aulas-virtuales.cuaed.unam.mx/",
-    "9": "https://www.youtube.com/watch?v=CSvFpBOe8eY&list=RDCSvFpBOe8eY&start_radio=1"
+    "4": "https://github.com",
+    "5": "https://github.com",
+    "6": "https://github.com",
+    "7": "https://github.com",
+    "8": "https://github.com",
+    "9": "https://github.com"
 }
 # =========================
 # CONFIG: RUTA de archivos (si quieres abrir PDFs, imágenes, etc.) por numero 
 # =========================
 Archivos_RUTA = {
-    "MODE0": r"C:\Users\marce\OneDrive\Desktop\MODULE_RCS\IRMODULE.pdf",
-    "MODE1": r"C:\Users\marce\OneDrive\Desktop\MODULE_RCS\CodigosDelCntrol.txt",
-    "MODE2": r"C:\Users\marce\OneDrive\Desktop\Roblox Studio.lnk",
-    "MODE3": r"C:\Users\marce\OneDrive\Desktop\Spotify.lnk",
-    "MODE4": r"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Medibang\MediBang Paint Pro\MediBang Paint Pro.lnk",
-    "MODE5": r"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Google Chrome.lnk",
-    "MODE6": r"C:\Users\marce\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Discord Inc\Discord.lnk",
-    "MODE7": r"C:\Users\marce\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Steam\Yu-Gi-Oh!  Master Duel.url",
-    "MODE8": r"C:\Users\marce\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Steam\Steam.lnk",
-    "MODE9": r"C:\Users\marce\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Roblox\Roblox Player.lnk"
+    "MODE0": r"C:\Users\YourUsername\MODULE_RCS\IRMODULE.pdf",
     #"#": r "---(La ruta)---",
 }
 
